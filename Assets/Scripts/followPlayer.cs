@@ -16,7 +16,7 @@ public class followPlayer : MonoBehaviour
     void Update()
     {
         // print player location to the console
-        Debug.Log(player.position);
+        // Debug.Log(player.position);
         // now set player position to the camera
         transform.position = player.position +offest; 
     }
